@@ -2,4 +2,4 @@
 
 Coding is fun
 
-I will write something to see if it will applied to the github
+I will write something to see if it will be applied to the github
