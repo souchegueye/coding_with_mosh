@@ -1,0 +1,60 @@
+/*if we wanna bring back our space(normalize.css reduced the space),
+we should style the body part below*/
+
+body {
+  margin: 10px;
+}
+
+p {
+  color: orange;
+}
+
+/*We use a pound # to select the element with an id*/
+#first {
+  color: blue;
+  font-weight: bold;
+}
+
+#products {
+}
+
+/*We use a . to select the element with a class*/
+.products {
+}
+
+/*We can use different way to select element by attribute */
+
+/*first method*/
+a[target] {
+  color: red;
+}
+
+/*second method*/
+
+/* a[href="https://realmadrid.com"]
+{
+  color: yellow;
+} */
+
+a[href*="realmadrid"] {
+  color: yellow;
+}
+
+/*third method --> this will apply first on the others*/
+a[target="_blank"] {
+  color: blue;
+}
+/*we can search for the first attribute using "^"*/
+a[href^="https"] {
+  color: yellow;
+}
+
+/*we can search for the last attribute using "$"*/
+a[href$="com"] {
+  color: yellow;
+}
+
+/*we can search for the both attributes using "^$"*/
+a[href^="https"][href$="com"] {
+  color: yellow;
+}
