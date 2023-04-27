@@ -1,0 +1,9 @@
+body {
+  margin: 10px;
+}
+
+/*descendant selector*/
+/*we add the > to style only the first paragraph*/
+#products ~ p {
+  color: orange;
+}

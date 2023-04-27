@@ -1,0 +1,45 @@
+body {
+  margin: 10px;
+}
+
+/*This is an example of a pseudo class*/
+article :first-child {
+  font-size: 140%;
+  font-style: italic;
+  color: orange;
+}
+
+/* the last paragraph will be blue */
+article :last-child {
+  color: blue;
+}
+/* We can style only one paragraph --> the first one */
+article p:first-of-type {
+  color: green;
+}
+
+/* We can style only one paragraph --> the last one */
+article p:last-of-type {
+  color: grey;
+}
+
+/* This  */
+ul li:nth-child(odd) {
+  color: deeppink;
+}
+
+/* It will applied to all hyperlink of our html file */
+a:visited,
+a:link {
+  color: deeppink;
+}
+
+/* when we hover over the link   */
+/* We can apply this to a div, a section, pretty much everything */
+/* whenever we use a hover selector, we should also use the focus on
+ the selector. It will allow the the hover when the user goes over the selector 
+ using tab key  */
+a:hover,
+a:focus {
+  color: darkorange;
+}
