@@ -3,17 +3,27 @@ nav {
   /*  text-align: center; */
   margin: auto;
 }
-li {
-  text-align: center;
-}
+
 .new {
   text-align: left;
+}
+
+.second::first-letter {
+  font-size: 140%;
+  font-weight: bold;
+}
+
+.second::first-line {
+  font-weight: bold;
 }
 section {
   font-style: italic;
 }
+.prime1 {
+  color: deeppink;
+}
 
-a {
+.prime2 {
   color: orange;
 }
 
