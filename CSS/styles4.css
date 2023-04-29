@@ -1,0 +1,29 @@
+nav {
+  color: red;
+  /*  text-align: center; */
+  margin: auto;
+}
+li {
+  text-align: center;
+}
+.new {
+  text-align: left;
+}
+section {
+  font-style: italic;
+}
+
+a {
+  color: orange;
+}
+
+.two {
+  color: blue;
+}
+a:hover {
+  color: purple;
+}
+
+/* .second {
+  color: blue;
+} */
