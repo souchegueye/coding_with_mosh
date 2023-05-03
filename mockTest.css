@@ -1,0 +1,56 @@
+nav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav {
+  background-color: #ddd;
+  color: black;
+}
+
+nav {
+  background-color: #04aa6d;
+  color: white;
+}
+
+nav {
+  float: right;
+}
+
+li {
+  color: deeppink;
+}
+
+.first {
+  color: green;
+}
+
+.one {
+  color: gold;
+}
+
+table,
+td,
+th {
+  border: 1px solid grey;
+  /*single border*/
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+tfoot {
+  text-align: left;
+}
+
+body {
+  background-image: url("/images/Lion2.jpeg");
+}
