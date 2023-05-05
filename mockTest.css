@@ -1,29 +1,26 @@
-nav {
-  overflow: hidden;
-  background-color: #333;
+.momo::first-letter {
+  font-size: 240%;
+  font-weight: bold;
 }
 
-nav {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+.momo::first-line {
+  font-size: 100%;
+  font-weight: bold;
 }
 
-nav {
-  background-color: #ddd;
-  color: black;
+::selection {
+  background: pink;
 }
 
-nav {
-  background-color: #04aa6d;
-  color: white;
+.momo::before {
+  content: "...";
+  display: block;
 }
 
-nav {
-  float: right;
+.momo::after {
+  content: "...";
+  display: block;
+  color: red;
 }
 
 li {
